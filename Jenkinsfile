@@ -28,7 +28,7 @@ docker push akshay0570/ak:0570'''
        }
        stage('deployment and service'){
         steps{
-            sh 'kubectl aplly -f k8s-deployment.yaml'
+            sh 'kubectl apply -f k8s-deployment.yaml'
         }
        }
     }
